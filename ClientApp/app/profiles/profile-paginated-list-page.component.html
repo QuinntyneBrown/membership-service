@@ -1,0 +1,5 @@
+<ce-profile-paginated-list [profiles]="profiles"                           
+                           (delete)="tryToDelete($event)"
+                           (edit)="tryToEdit($event)"
+                           (filterKeyUp)="handleProfilesFilterKeyUp($event)">
+</ce-profile-paginated-list>
